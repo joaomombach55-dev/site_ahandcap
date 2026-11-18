@@ -30,17 +30,15 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    
 }
 
 .banner img {
-    width: 100%;
+    width: 75%;
     height: 100%;
     object-fit: cover;
 }
 
-.banner-placeholder {
-    font-size: 14px;
-}
 
 nav {
     background: var(--green);
@@ -131,9 +129,7 @@ footer {
         justify-content: center;
     }
 
-    nav a {
-        font-size: 13px;
-    }
+
 
     main {
         padding: 25px 20px;
